@@ -1,13 +1,42 @@
 body {
+    
     margin: 0;
-    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    background-color: #fff; 
+    padding: 0;
+    font-size: 15px;
+  }
+  nav {
+    background-color: rgb(182, 235, 182);
+    margin: 0;
+    overflow: hidden;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav ul li {
+    float: right;
+  }
+  nav ul li a {
+    color: black;
+    display: block;
+    line-height: 3em;
+    padding: 1em 3em;
+    text-decoration: none;
+  }
+  nav ul li button {
+    color: white;
+    display: block;
+    line-height: 3em;
+    padding: 1em 3em;
+    text-decoration: none;
+  }
+  li:first-child {
+    float: left;
 }
+  nav ul li a.logo {
+    background-color: green;
+  }
 
 .icons{
         
@@ -28,4 +57,11 @@ button {
 }
 .navbar .logo{
     display : flex;
+}
+.icons{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    width: 30px;
+    height: 30px;
 }
